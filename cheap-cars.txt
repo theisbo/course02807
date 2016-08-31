@@ -1,0 +1,9 @@
+plym    fury    77      73      2500
+chevy   nova    79      60      3000
+volvo   gl      78      102     9850
+Chevy   nova    80      50      3500
+fiat    600     65      115     450
+honda   accord  81      30      6000
+toyota  tercel  82      180     750
+chevy   impala  65      85      1550
+ford    bronco  83      25      9525

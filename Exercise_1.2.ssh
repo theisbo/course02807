@@ -1,0 +1,1 @@
+awk -f checkValue.awk $1 > cheap-$1
