@@ -1,0 +1,3 @@
+filename=$1
+
+grep -iowE '[0-9a-z]+' $filename | head -n 5
