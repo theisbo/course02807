@@ -1,0 +1,6 @@
+# Spellchecker, checks the spelling of words in the input agianst a dictionary
+# Usage: bash spellchecker.ssh filename
+
+sed 's/./\L&/g' $1 | grep -oE "[a-z]+" | sort | uniq > "input-text.txt"
+comm -13 "dict-L" "input-text.txt" > "misspelled-words.txt"
+wc -w "misspelled-words.txt"
